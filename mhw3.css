@@ -1,0 +1,387 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+}
+a {text-decoration: none;}
+header {
+    background-size: cover;
+    background-position: center;
+    height: 108px;
+    position: relative;
+    background-color: #333333;
+    color: #969696;
+    border-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    font-size: 14px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+
+#links div{
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: #333333;
+    color: white;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer span{
+    width: 300px;
+    float: left;
+}
+footer a{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 15px;
+    line-height: 20px;
+}
+.nome {
+    top: 0px;
+    left: 0px;
+    height: 100px; 
+    width: 300px;
+}
+.logo img{
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+@media (max-width: 600px) {
+	.logo img{
+	  font-size: 1em;
+	}
+}
+.foto span{
+    display: flex;
+    height: 600px;
+    position: relative;
+    max-width: none;
+    visibility: visible;
+    border-top: none;
+    background-image: url('photo/EDIT_GIA09516.jpg');
+}
+
+.foto h1 {
+    position: absolute;
+    text-transform: uppercase;
+    left: 120px;
+    top: 120px;
+    font-size: 200%;
+    width: 100%;
+    font-family: Arial,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+h1 p{
+    color: white;
+    margin: 0px;
+}
+h1 a{
+    color: white;
+}
+h1 strong{
+    display: inline;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.6);
+}
+#links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    height: 90px;
+    line-height: 20px;
+    list-style-type: none;
+}
+#botton {
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 9px;
+    font-size: 16px;
+}
+#botton:hover {
+    background-color: white;
+    color: black;
+}
+#titolo h3{
+    display: flex;
+    font-family: 'Arial';
+    top: 50px;
+    width: 94%;
+    max-width: 85%;
+    margin: auto auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+#previous-btn , #next-btn {
+    position: relative;
+    width: 51px;
+    top: -3px;
+    left: 0;
+    height: 24px;
+    opacity: 1;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 25px;
+    font-size: 10px;
+    top: 0;
+}
+#scorrimento img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 3em 0;
+    margin-inline-start: 1em;
+    margin-block-end: 1em;
+}
+
+#comunicazioni div{
+    display: flex;
+    width: 94%;
+    max-width: 85%;
+    margin: auto auto;
+    flex-direction: column;
+}
+
+#comunicazioni h4{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    max-width: 85%;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #919191;
+}
+#comunicazioni a {
+    color: black;
+}
+#all_comunicazioni h4{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    max-width: 85%;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#icon_1 {
+    color:black;
+    border-color:black;
+    font-size:40px;
+    line-height:40px;
+}
+
+.offerta h3{
+    font-weight: normal;
+    text-transform: none;
+    font-family: 'roboto', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    top: -3px;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+}
+
+#rosso {
+    background-color: #af2121;
+    padding: 60px;
+    min-height: 300px;
+    vertical-align: top;
+    color: white;
+}
+#rosso h1{
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 0;
+}
+#rosso p{
+    margin: 0.85em 0;
+}
+#rosso #bianco .btn-brs {
+    margin-top: 4px;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: none;
+}
+.btn-brs a{
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 9px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.read:hover {
+    text-decoration: underline;
+}
+.read[data-read="true"] {
+    color: black;
+}
+#grigio {
+    background-color: #707070;
+    min-height: 300px;
+    vertical-align: top;
+    padding: 30px 30px 30px 30px;
+}
+#blu {
+    background-color: #6694af;
+    padding: 60px;
+    min-height: 300px;
+    vertical-align: top;
+}
+#secondo {
+    background-color: #f4f4f4;
+    padding: 60px;
+    min-height: 300px;
+    vertical-align: top;
+}
+#secondo h3, #bianco h3 {
+    color: #222222;
+}
+
+#library-view {
+    flex-wrap: wrap;
+}
+
+#library-view .book {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+#library-view img {
+    max-width: 100%;
+}
+
+#bianco {
+    background-color: #ffffff;
+    padding: 60px;
+    min-height: 300px;
+    vertical-align: top;
+}
+.orientamento {
+    height: 500px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-image: url('photo/EDIT_DSC05485.jpg');
+    background-attachment: scroll;
+    background-position: bottom left;
+}
+
+.orientamento h1{
+    padding-bottom: 0px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'roboto', 'Helvetica';
+    margin-top: 0;
+    width: 100%;
+    clear: both;
+    display: block;
+    position: relative;
+    align-items: center;
+    left: 50px;
+    top: 100px;
+}
+.orientamento #botton{
+    background-color: #B02B2C;
+    border-color: #B02B2C;
+    border-style: ridge;
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 15px 30px 13px;
+    font-size: 16px;
+    min-width: 10px;
+    float: left;
+    top: 60px;
+    left: 50px;
+    display: block;
+    margin: 3px 0;
+    line-height: 1.2em;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 300px;
+        line-height: 1.2;
+    }
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.attivita {
+    display: flex;
+    justify-content: space-between;
+}
+.attivita div {
+    flex-grow: 1;
+    padding: 20px;
+}
+@media (max-width: 500px) {
+    .attivita, .attivita_titile {
+      flex-direction: column;
+    }
+}
+.attivita_titile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.offerta {
+    display: flex;
+    justify-content: space-between;
+}
+.offerta div {
+    flex-grow: 1;
+    padding: 20px;
+}
+@media (max-width: 500px) {
+    .offerta {
+      flex-direction: column;
+    }
+}
